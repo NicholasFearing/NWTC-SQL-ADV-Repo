@@ -1,8 +1,10 @@
 -- create database and ensure rest of script executes in it
 
-CREATE myDatabase;
+CREATE DATABASE myDatabase;
+GO
 
 USE myDatabase;
+GO
 
 CREATE TABLE Customers (
 	CustID INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
